@@ -196,17 +196,18 @@ a:hover {
 .socials ul li {
   display: inline-block;
 }
-.socials .ico-circle {
+.socials .ico {
   height: 40px;
   width: 40px;
   font-size: 1.2rem;
-  border-radius: 50%;
+  border-radius: 100%;
+  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
   line-height: 1.6;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
-.socials .ico-circle:hover {
+.socials .ico:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
@@ -227,7 +228,7 @@ a:hover {
   margin-right: 10px;
 }
 
-.ico-circle {
+/* .ico {
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -237,7 +238,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
-}
+} */
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -413,7 +414,7 @@ a:hover {
   padding: 20px 0;
 }
 #header .logo {
-  font-size: 28px;
+  font-size: 32px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -458,7 +459,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
@@ -491,7 +492,7 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #fff;
 }
-.navbar .dropdown ul {
+/* .navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 30px;
@@ -543,7 +544,7 @@ a:hover {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-}
+} */
 
 /**
 * Mobile Navigation 
@@ -651,7 +652,7 @@ a:hover {
   position: absolute;
 }
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0);
   position: absolute;
   top: 0;
   left: 0px;
@@ -1074,7 +1075,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   .card-blog {
     margin-bottom: 3rem;
   }
@@ -1121,12 +1122,12 @@ a:hover {
   color: #4e4e4e;
   display: inline-block;
   float: right;
-}
+} */
 
 /*--------------------------------------------------------------
 # Blog Single
 --------------------------------------------------------------*/
-.post-box,
+/* .post-box,
 .form-comments,
 .box-comments,
 .widget-sidebar {
@@ -1172,7 +1173,7 @@ a:hover {
   border-left: 4px solid #0078ff;
   padding: 18px;
   font-style: italic;
-}
+} */
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
